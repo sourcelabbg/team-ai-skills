@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "team-data",
+  "version": "0.1.0",
+  "description": "Team skills for SQL conventions, migrations, and data modeling.",
+  "author": {
+    "name": "Sourcelab"
+  }
+}

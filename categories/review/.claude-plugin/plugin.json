@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "team-review",
+  "version": "0.1.0",
+  "description": "Team skills for code review, PR hygiene, and pre-merge checks.",
+  "author": {
+    "name": "Sourcelab"
+  }
+}

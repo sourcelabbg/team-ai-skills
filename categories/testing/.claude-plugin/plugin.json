@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "team-testing",
+  "version": "0.1.0",
+  "description": "Team skills for test strategy, test writing, and coverage decisions.",
+  "author": {
+    "name": "Sourcelab"
+  }
+}

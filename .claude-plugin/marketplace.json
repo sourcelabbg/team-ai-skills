@@ -1,0 +1,47 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "team-ai-skills",
+  "description": "Sourcelab's internal skill library, grouped by stage of the software lifecycle. Works with Claude Code, OpenAI Codex, and Gemini CLI.",
+  "owner": {
+    "name": "Sourcelab",
+    "email": "hristopher@sourcelab.eu"
+  },
+  "plugins": [
+    {
+      "name": "team-engineering",
+      "description": "Team skills for building things: conventions, scaffolding, and implementation patterns.",
+      "category": "engineering",
+      "source": "./categories/engineering"
+    },
+    {
+      "name": "team-testing",
+      "description": "Team skills for test strategy, test writing, and coverage decisions.",
+      "category": "testing",
+      "source": "./categories/testing"
+    },
+    {
+      "name": "team-review",
+      "description": "Team skills for code review, PR hygiene, and pre-merge checks.",
+      "category": "review",
+      "source": "./categories/review"
+    },
+    {
+      "name": "team-documentation",
+      "description": "Team skills for ADRs, READMEs, changelogs, and technical writing.",
+      "category": "documentation",
+      "source": "./categories/documentation"
+    },
+    {
+      "name": "team-operations",
+      "description": "Team skills for deploys, incidents, runbooks, and on-call.",
+      "category": "operations",
+      "source": "./categories/operations"
+    },
+    {
+      "name": "team-data",
+      "description": "Team skills for SQL conventions, migrations, and data modeling.",
+      "category": "data",
+      "source": "./categories/data"
+    }
+  ]
+}
